@@ -38,8 +38,8 @@ carlitos_way = media.Movie("Carlito's Way",
                            "https://www.youtube.com/watch?v=omqsrminbfs")
 
 _88_minutes = media.Movie("88 Minutes",
-                         "https://image.tmdb.org/t/p/original/b5d3iWimQXvjAx9Grjuk912DSij.jpg",
-                         "https://www.youtube.com/watch?v=zUCd805JDJk")
+                          "https://image.tmdb.org/t/p/original/b5d3iWimQXvjAx9Grjuk912DSij.jpg",
+                          "https://www.youtube.com/watch?v=zUCd805JDJk")
 
 the_matrix = media.Movie("The Matrix",
                          "https://image.tmdb.org/t/p/original/hEpWvX6Bp79eLxY1kX5ZZJcme5U.jpg",
@@ -57,7 +57,10 @@ rec = media.Movie("[REC]",
                   "https://image.tmdb.org/t/p/original/lLSXs26iZe0aIzYrobr3FruUG36.jpg",
                   "https://www.youtube.com/watch?v=YQUkX_XowqI")
 
-movies = { the_butterfly_effect, jurassic_park, the_grudge, big_mommas_house, the_exorcist,
-           i_am_sam, lord_of_war, anger_management, carlitos_way, _88_minutes, the_matrix,
-           training_day, the_book_of_eli, rec }
+# Creates the list of movies
+movies = {the_butterfly_effect, jurassic_park, the_grudge, big_mommas_house, the_exorcist,
+          i_am_sam, lord_of_war, anger_management, carlitos_way, _88_minutes, the_matrix,
+          training_day, the_book_of_eli, rec}
+
+# Opens the movies page using default web browser
 fresh_tomatoes.open_movies_page(movies)
